@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,11 +35,45 @@ p{
 }
 .top-banner{
 
-    background-image: url(Images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .dream-big{
-   background-image: url(Images/dream-bg.png);
+   background-image: url(images/dream-bg.png);
  background-repeat: no-repeat;
  background-position: right;
 }
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 0%;
+    padding: auto;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2%;
+    border-left: indigo solid;
+}
+#Software-Developer{
+
+    border-left: 7px solid;
+    border-image: linear-gradiant(blue,cyan);
+    border-image-slice: 1;
+}
+#manager{
+
+    border-left: 7px solid;
+    border-image: linear-gradiant(orange,rgb(39, 253, 253));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+
+
